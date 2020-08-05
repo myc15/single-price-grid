@@ -128,21 +128,25 @@ footer p {
     container {
         display: flex;
         flex-flow: column wrap;
-        width: 24rem;
+        width: 21rem;
+    }
+
+    div {
+        padding: 1.8rem;
     }
 
     /* header-section */
     #header-section h1 {
-        font-size: 1.7rem;
+        font-size: 22px;
     }
 
     #header-section h2 {
-        font-size: 1.25rem;
+        font-size: 16px;
 
     }
 
     #header-section p {
-        font-size: 1rem;
+        font-size: 14px;
     }
 
      /* Subscription Section */
@@ -150,10 +154,34 @@ footer p {
          border-radius: 0;
      }
 
+     #subscription h2 {
+        font-size: 20px;
+    }
+    
+    .price {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    #subscription p {
+        font-size: 1rem;  
+    }
+    
+    button {
+        font-size: 16px;
+    }
+
      /* Why us section */
     #why-us {
         border-radius: 0 0 10px 10px;
     }
 
+    #why-us h2 {
+        font-size: 20px;
+    }
+
+    #why-us p {
+        font-size: 14px;
+    }
 
 }
